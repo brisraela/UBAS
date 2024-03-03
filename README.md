@@ -1,5 +1,5 @@
 # UBAS
-Unattended Baggage Alret System
+Unattended Baggage Alert System
 
 
 The program utilizes computer vision to identify unattended baggage. It does so in the following steps. First, it captures a frame from a live camera (every 10 milliseconds), then using the yolov8m model it identifies people and suitcases. Finally, the program calculates overlap between each suitcase and person in the frame. If the program finds a suitcase without an owner - it sends an alert.
