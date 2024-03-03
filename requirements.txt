@@ -1,0 +1,7 @@
+Ultralytics ==8.1.19
+torch == 2.2.0
+numpy>=1.23.5
+opencv-python == 4.9.0.80
+customtkinter == 5.2.2
+Pillow == 10.2.0
+
